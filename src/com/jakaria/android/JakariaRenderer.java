@@ -318,9 +318,9 @@ public class JakariaRenderer implements Renderer {
 
         program = ShaderHelper.linkProgram(vertexShader, fragmentShader);
 
-        if (LoggerConfig.ON) {
-            ShaderHelper.validateProgram(program);
-        }
+        //if (LoggerConfig.ON) {
+          //  ShaderHelper.validateProgram(program);
+        //}
 
         glUseProgram(program);
         
